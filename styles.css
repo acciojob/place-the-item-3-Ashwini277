@@ -1,5 +1,10 @@
 .holder {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    display: flex;              /* Enable flexbox layout */
+    justify-content: space-around; /* Evenly space items in the row */
+    flex-wrap: wrap;            /* Allow wrapping to the next row */
+    gap: 10px;                  /* Optional: Add gap between items */
+}
+
+.item {
+    flex: 0 1 auto;             /* Do not grow, shrink as needed, auto basis */
 }
